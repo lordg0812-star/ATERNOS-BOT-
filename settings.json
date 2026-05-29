@@ -24,8 +24,8 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true,
-      "jump": true,
+      "sneak": false,
+      "jump": false,
       "swing-arm": true
     },
     "auto-reconnect": {
