@@ -1,7 +1,7 @@
 {
   "name": "AFK VOLT BOT",
   "bot-account": {
-    "username": "Volt_IS_HERE",
+    "username": "Volt_BOT_AFK",
     "password": "",
     "type": "offline"
   },
@@ -24,9 +24,9 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": false,
-      "jump": false,
-      "swing-arm": false
+      "sneak": true,
+      "jump": true,
+      "swing-arm": true
     },
     "auto-reconnect": {
       "enabled": true,
