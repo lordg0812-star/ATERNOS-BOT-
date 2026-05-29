@@ -12,7 +12,7 @@
     "try-creative": false
   },
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": 0,
     "y": 100,
     "z": 0
@@ -24,21 +24,16 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true,
-      "jump": true,
-      "swing-arm": true
+      "sneak": false,
+      "jump": false,
+      "swing-arm": false
     },
     "auto-reconnect": {
       "enabled": true,
-      "auto-reconnect-delay": 20000
+      "auto-reconnect-delay": 15000
     },
     "chat-messages": {
-      "enabled": true,
-      "messages": [
-        "/lobby"
-      ],
-      "delay": 2000,
-      "repeat": false
+      "enabled": false
     }
   }
 }
