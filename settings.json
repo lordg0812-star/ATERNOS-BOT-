@@ -19,8 +19,9 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": "VoltPassword123"
+      "enabled": true,
+      "password": "VoltPassword123",
+      "register": true
     },
     "anti-afk": {
       "enabled": true,
