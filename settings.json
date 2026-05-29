@@ -16,5 +16,23 @@
     "x": 0,
     "y": 100,
     "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": "VoltPassword123"
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+    "auto-reconnect": {
+      "enabled": true,
+      "auto-reconnect-delay": 10000
+    },
+    "chat-messages": {
+      "enabled": false,
+      "repeat": false
+    }
   }
 }
