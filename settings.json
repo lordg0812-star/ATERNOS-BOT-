@@ -19,20 +19,25 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "VoltPassword123",
-      "register": true
+      "enabled": false,
+      "password": ""
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": true,
+      "jump": true,
+      "swing-arm": true
     },
     "auto-reconnect": {
       "enabled": true,
-      "auto-reconnect-delay": 60000
+      "auto-reconnect-delay": 20000
     },
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
+      "messages": [
+        "/lobby"
+      ],
+      "delay": 2000,
       "repeat": false
     }
   }
