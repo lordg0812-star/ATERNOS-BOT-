@@ -1,7 +1,7 @@
 {
   "name": "AFK VOLT BOT",
   "bot-account": {
-    "username": "AFK_VOLT_BOT",
+    "username": "Volt_IS_HERE",
     "password": "",
     "type": "offline"
   },
@@ -19,8 +19,9 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": ""
+      "enabled": true,
+      "password": "VoltPassword123",
+      "register": true
     },
     "anti-afk": {
       "enabled": true,
@@ -28,7 +29,7 @@
     },
     "auto-reconnect": {
       "enabled": true,
-      "auto-reconnect-delay": 10000
+      "auto-reconnect-delay": 30000
     },
     "chat-messages": {
       "enabled": false,
