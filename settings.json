@@ -1,49 +1,51 @@
 {
-  "name": "AFK LORD BOT",
+  "name": "AFK Bot",
   "bot-account": {
-    "username": "Lord_BOT_AFK",
+    "username": "24x7 BOT",
     "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "lordsmpishere.falixsrv.me",
     "port": 25565,
-    "version": "1.21.11",
+    "version": "1.20.1",
     "try-creative": false
   },
   "position": {
-    "enabled": false
+    "enabled": true,
+    "x": 0,
+    "y": 100,
+    "z": 0
   },
   "utils": {
     "auto-auth": {
-      "enabled": false
+      "enabled": true,
+      "password": "SoloPlayz"
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true,
-      "jump": true,
-      "swing-arm": true
+      "sneak": true
     },
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 180,
+      "repeat-delay": 120,
       "messages": [
-        "Lord SMP is online! 🚀",
-        "Keeping the server alive 24/7!",
-        "Lord Gamer Army OP!"
+        "I'm a regular player",
+        "Subscribe to SoloPlayz!",
+        "Want Cheap Premium MC Server? https://discord.gg/VRMUnDkf95"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 5000,
-    "max-reconnect-delay": 60000
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 120000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 2,
+      "radius": 4,
       "speed": 3000
     },
     "look-around": {
@@ -54,5 +56,32 @@
       "enabled": true,
       "interval": 10000
     }
+  },
+  "modules": {
+    "avoidMobs": true,
+    "combat": true,
+    "beds": false,
+    "chat": true,
+    "console-commands": true
+  },
+  "combat": {
+    "attack-mobs": true,
+    "auto-eat": true
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
+  },
+  "discord": {
+    "enabled": false,
+    "webhookUrl": "",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": false
+    }
+  },
+  "chat": {
+    "respond": true
   }
 }
