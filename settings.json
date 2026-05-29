@@ -1,13 +1,13 @@
 {
-  "name": "AFK VOLT BOT",
+  "name": "AFK LORD BOT",
   "bot-account": {
-    "username": "Volt_BOT_AFK",
+    "username": "Lord_BOT_AFK",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "VOLTSMP018.aternos.me",
-    "port": 63705,
+    "ip": "lordsmpishere.falixsrv.me",
+    "port": 25565,
     "version": "1.21.11",
     "try-creative": false
   },
@@ -29,30 +29,30 @@
       "repeat": true,
       "repeat-delay": 180,
       "messages": [
-        "Volt SMP is awesome!",
-        "Active and grinding!",
-        "Keeping the server alive!"
+        "Lord SMP is online! 🚀",
+        "Keeping the server alive 24/7!",
+        "Lord Gamer Army OP!"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 10000,
+    "auto-reconnect-delay": 5000,
     "max-reconnect-delay": 60000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 3,
-      "speed": 2500
+      "radius": 2,
+      "speed": 3000
     },
     "look-around": {
       "enabled": true,
-      "interval": 4000
+      "interval": 5000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 8000
+      "interval": 10000
     }
   }
 }
