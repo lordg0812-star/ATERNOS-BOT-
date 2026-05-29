@@ -12,74 +12,47 @@
     "try-creative": false
   },
   "position": {
-    "enabled": false,
-    "x": 0,
-    "y": 100,
-    "z": 0
+    "enabled": false
   },
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": ""
+      "enabled": false
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": true,
+      "jump": true,
+      "swing-arm": true
     },
     "chat-messages": {
-      "enabled": false,
-      "repeat": false,
-      "repeat-delay": 120,
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 180,
       "messages": [
-        "I'm a regular player"
+        "Volt SMP is awesome!",
+        "Active and grinding!",
+        "Keeping the server alive!"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 15000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 10000,
+    "max-reconnect-delay": 60000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 2,
-      "speed": 3000
+      "radius": 3,
+      "speed": 2500
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 4000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 8000
     }
-  },
-  "modules": {
-    "avoidMobs": true,
-    "combat": false,
-    "beds": false,
-    "chat": true,
-    "console-commands": true
-  },
-  "combat": {
-    "attack-mobs": false,
-    "auto-eat": false
-  },
-  "beds": {
-    "pick-up-day": false,
-    "place-night": false
-  },
-  "discord": {
-    "enabled": false,
-    "webhookUrl": "",
-    "events": {
-      "connect": true,
-      "disconnect": true,
-      "chat": false
-    }
-  },
-  "chat": {
-    "respond": false
   }
 }
